@@ -1,0 +1,31 @@
+{
+    "name": "julia-popko-portfolio-next",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@next/mdx": "^10.2.0",
+        "gray-matter": "^4.0.3",
+        "next": "^11.1.2",
+        "next-mdx-remote": "^2.1.4",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-svg": "^14.0.12",
+        "sass": "^1.40.1",
+        "styled-components": "^5.3.0",
+        "typed.js": "^2.0.12"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.15.5",
+        "@babel/preset-react": "^7.14.5",
+        "babel-plugin-styled-components": "^1.13.2",
+        "eslint": "7.32.0",
+        "eslint-config-next": "11.1.2",
+        "frontmatter-markdown-loader": "^3.6.3"
+    }
+}
